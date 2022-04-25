@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="form">
+        <input class = 'login' type="text" placeholder="Введите телефон или email">
+        <input class="password" type="password" placeholder="Введите пароль">
+        <ol>
+            <li hidden>Пароль должен иметь хотя бы одну маленькую букву</li>
+            <li hidden>Пароль должен быть не менее 10 символов</li>
+            <li hidden>Пароль должен иметь хотя бы одну заглавную букву</li>
+            <li hidden>Пароль должен иметь хотя бы одну цифру</li>
+            <li hidden>Пароль должен иметь хотя бы один символ</li>
+            <li hidden>Пароль не может содержать пробел</li>
+        </ol>
+        <button>Продолжить</button>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
